@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@200;300;600&display=swap');
+
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+.banner-image{
+    background-image: url('../img/ave.jpg');
+    background-size: cover;
+}
+h1{
+    text-shadow: 2px 2px 2px black ;
+}
+.nav-link.text-white{
+    border: solid 1px transparent;
+}
+.nav-link.text-white:hover{
+    color: black;
+    border: solid 1px #125C13;
+    border-radius: 3px;
+    background-color: #125C13;
+}
+.card{
+    box-shadow: 2px 2px 2px transparent;
+}
+.card:hover{
+    box-shadow: 3px 3px 3px 2px white;
+}

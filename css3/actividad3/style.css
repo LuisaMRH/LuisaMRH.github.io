@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2? familia = Raleway: peso @ 200; 300; 400; 600 &family= Roboto & display=swap');
+
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 200px;
+    background-color: #06A6C2;
+}
+
+a{
+ background-color: #06A6C2;
+ padding: 9px;
+ color: #fff;
+ border-radius: 12px;
+
+}
+
+
+img{
+    width: 280px;
+    height: 250px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 30px;
+    
+
+}
+
+p{
+
+    background-color: #fafafa;
+    border-radius: 20px;
+    
+    padding: 20px;
+}
+
+span{
+    border: 2px solid rgb(190, 188, 188);     
+    border-radius:4px;         
+    font-weight: bold;         
+    padding: 4px; 
+}
+
+li{
+    background-color: #fff;
+    padding: 7px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 13px;
+}
+
+
+
+

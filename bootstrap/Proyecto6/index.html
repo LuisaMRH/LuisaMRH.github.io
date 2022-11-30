@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Bootstrap5 - Header transparente</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" >
+      <div class="container" id="inicio">
+        <a class="navbar-brand" href="#">Anímate a ver...<i class="fa-solid fa-heart-circle-check"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#nosotros">Curiosidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#servicios">Tipos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contactenos">Contáctenos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Banner Image-->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+      <div class="content text-center">
+        <h1 class="text-white">A V E S <i class="fa-solid fa-dove"></i></h1>
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+<div class="container my-5 d-grid gap-5" id="nosotros">
+  <!--Section: Content 1-->
+  <section class="py-5 " >
+    <div class="row">
+      <h2 class="text-center mb-5 text-decoration-underline">Curiosidades <i class="fa-solid fa-feather-pointed"></i></h2>
+      <div class="col-md-6 gx-5 mb-4">
+        
+        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+          <img src="img/ave5.webp" class="img-fluid shadow"  />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 gx-5 mb-4 " >
+        <h4><strong>¿Qué debes saber sobre las aves?</strong></h4>
+        <p class="text-muted text-center">
+          Las aves también actúan como agentes de dispersión, además de la polinización, por el simple hecho de tener una alimentación frugívora. Es decir, las aves tienen organismos adaptados para que puedan comer y procesar semillas, que en muchas ocasiones son la parte principal de su alimentación.
+        </p>
+        <p><strong>¡Dato curioso!</strong></p>
+        <p class="text-muted text-center">
+          Por lo general se alimentan de bayas, un manjar delicioso, que en ocasiones puede jugarles malas pasadas. Se conoce que su organismo tiene la capacidad de metabolizar el alcohol resultante de la fermentación espontánea de estas bayas; pero en altas cantidades pueden intoxicarse, e incluso morir
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--/Section: Content 1-->
+  <hr class="my-5" />
+  <!--Section: Content 2-->
+  <div class="container bg-dark">
+  <section class="py-5 text-center">
+    <h3 class="mb-5  text-white" id="servicios"><strong> Tipos de aves <i class="fa-brands fa-twitter"></i> </strong></h3>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/ave3.webp" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Guacamaya</h5>
+            <p class="card-text">
+              La guacamaya es un ave conocida por su hermoso y colorido plumaje. Esta suele alimentarse de semillas.
+            </p>
+            <a href="https://atlasanimal.com/guacamaya/" class="btn btn-success">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/ave4.webp" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Paloma</h5>
+            <p class="card-text">
+              Es una especie de ave columbiforme de la familia Columbidae ​ nativa del sur de Eurasia y del norte de África.
+            </p>
+            <a href="https://www.ecured.cu/Paloma" class="btn btn-success">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img src="img/ave2.webp" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Tucán</h5>
+            <p class="card-text">
+              Se caracterizan por poseer un pico muy desarrollado y de vivos colores. Miden entre 18 y 65 cm.
+            </p>
+            <a href="https://animapedia.org/animales-aereos/tucan/" class="btn btn-success">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+  <!--/ Section: Content 2-->
+</div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/nav.js"></script>
+    <script src="https://kit.fontawesome.com/500d3774e6.js" crossorigin="anonymous"></script>
+  </body>
+</html>

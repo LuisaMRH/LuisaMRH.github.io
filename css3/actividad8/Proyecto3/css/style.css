@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,400;0,600;1,300 & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:linear-gradient(27deg, #2B4F60 80%, #0E918C 20%);
+    background:linear-gradient(27deg, #0E918C 20%, #2B4F60 80%);
+    
+}
+
+.container{
+    width: 90%;
+    max-width:1000px;
+    height: 90vh;
+    background-color: #f1faee;
+    margin: auto;
+}
+
+.container header{
+    background:linear-gradient(27deg, #C21010 90%, #760000 10%);
+    background:linear-gradient(27deg, #760000 10%, #C21010 90%);
+    color: #f1faee;
+    padding: 50px;
+    text-align: center;
+}
+
+.container nav{
+    background-color: #1d3557;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container nav a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    flex-grow: 1;
+}
+
+.container nav a:hover{
+    background-color: #0c213D;
+}
+
+.container .main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .main aside{
+    background-color: #1F4690;
+    color: #f1faee;
+    padding: 20px;
+    flex: 30%;
+}
+
+.container .main aside h2{
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.container .main aside ul{
+    width: 100%;
+}
+
+.container .main aside ul li {
+    list-style: none;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.container .main aside ul li a{
+    color: #f1faee;
+    text-decoration: none;
+    padding-left:5px ;
+}
+.container .main aside ul li:hover{
+    background-color: #2D668B;
+    border: 10px solid #2D668B;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: #0c213D;
+    
+
+}
+
+/**
+.container ul li {
+    background-color: #fff;
+    margin: 5px;
+    border:2px solid #0E918C;
+    text-align: center;
+}
+
+.container ul li:hover{
+    background-color: #818182;
+    color: #E8DFCA;
+    border:2px solid #818182;
+    transition: 0.5s;
+
+}
+*/
+.container .main section{
+    background-color: #E8DFCA;
+    padding: 20px;
+    flex: 70%;
+}
+
+footer{
+    background-color: #1d3557;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .container nav{
+        flex-direction: column;
+    }
+
+    .container .main{
+        flex-direction: column;
+    }
+}
+
+
